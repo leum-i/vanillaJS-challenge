@@ -2,7 +2,7 @@ const weather = document.querySelector(".weather");
 const weatherIcon = document.querySelector(".weatherIcon");
 const weatherPlace = document.querySelector(".location")
 
-const API_KEY = config.MY_API_KEY;
+var API_KEY = config.MY_API_KEY;
 const COORDS = 'coords';
 
 function getWeather(lat, lon){
